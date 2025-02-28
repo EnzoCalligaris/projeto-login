@@ -20,23 +20,24 @@ body, html{
 }
 
 main{
-    position: relative;
     height: 100vh;
     width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login{
     position: absolute;
     background-color: white;
-    width: 249px;
+    width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem{
@@ -66,7 +67,7 @@ form > div.campo{
     background-color: #5f2c82;
     width: 100%;
     display: block;
-    height: 40px;
+    height: 42px;
     border-radius: 8px;
     margin: 5px 0px;
     border: 2px solid #5f2c82;
