@@ -38,6 +38,10 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login > div#imagem{
@@ -92,7 +96,7 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(-11px);
 }
 
 div.campo > input:focus-within{
